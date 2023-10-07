@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    
+    background-size: cover;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.second {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.second h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+.second p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.hero button {
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.hero button:hover {
+    background-color: #333;
+    color: #fff;
+}
+.about-me {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+.content
+{
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 30px;
+    width: 250px;
+    
+    text-align: center;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
