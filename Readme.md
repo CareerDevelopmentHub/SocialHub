@@ -1,8 +1,7 @@
 # SocialHub - Hacktoberfest-2023🔥
 
-Welcome to SocialHub, an open-source project with a simple yet powerful goal: to create innovative "About Me" pages that foster meaningful connections among users. 😃 
+Welcome to SocialHub, an open-source project with a simple yet powerful goal: to create innovative "About Me" pages that foster meaningful connections among users. 😃
 <br>
-
 
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
@@ -15,7 +14,6 @@ Welcome to SocialHub, an open-source project with a simple yet powerful goal: to
 
 </div>
 
-
 ### This repository aims to help code beginners with their first successful pull request and open source contribution. 🤝:
 
 🚀: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
@@ -25,11 +23,10 @@ Welcome to SocialHub, an open-source project with a simple yet powerful goal: to
 ### This repository is open to all members of the GitHub community. Any member can contribute to this project! ❤️:
 
 ## What is Hacktoberfest? 🤔:
+
 A month-long celebration from October 1st to October 31st presented by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [DEV Community](https://dev.to/) collaborated with [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open-source developer community.
 
-
 ## Steps to follow :scroll:
-
 
 ### 0. Star The Repo ⭐:
 
@@ -43,19 +40,23 @@ You can get your own fork/copy of repository by using the <kbd><b>Fork</b></kbd>
 
 `NOTE: commands are to be executed on Linux, Mac, and Windows(using Powershell)`
 
-You need to clone or (download) it to local machine using command 
+You need to clone or (download) it to local machine using command
+
 ```sh
 # This clones your forked repository
-$ git clone "link of repo" 
+$ git clone "link of repo"
 ```
-`NOTE: Please don't forget to replace` ***`link of repo`*** `with the actual link of the repository on your forked version.`
+
+`NOTE: Please don't forget to replace` **_`link of repo`_** `with the actual link of the repository on your forked version.`
 
 ### 3. Set it up ⬆️:
 
 Commit your changes and push to GitHub using following commands :
+
 ```sh
 $ git init
 ```
+
 ```sh
 # To add all files to branch Folder_Name
 $ git add .
@@ -78,5 +79,4 @@ $ git push -u origin BranchName
 Finally, go to your repository in the browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
-
-<img width="2400" alt="Email Banners-Lite" src="https://user-images.githubusercontent.com/50301680/190843393-c1177849-7870-4c43-bd8b-02f680cf6e03.png">
+# <img width="2400" alt="Email Banners-Lite" src="https://user-images.githubusercontent.com/50301680/190843393-c1177849-7870-4c43-bd8b-02f680cf6e03.png">
