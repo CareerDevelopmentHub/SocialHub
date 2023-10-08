@@ -7,21 +7,21 @@ Welcome to SocialHub, an open-source project with a simple yet powerful goal: to
 
 <div align="center">
 
-[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)]
+![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)
 <img src="https://img.shields.io/badge/HacktoberFest-2023-blueviolet" alt="Hacktober Badge"/>
 <img src="https://img.shields.io/static/v1?label=%E2%AD%90&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 <a href="https://github.com/suhani1804" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" /></a>
 
 </div>
-
-### This repository aims to help code beginners with their first successful pull request and open source contribution. 🤝:
+ This repository aims to help code beginners with their first successful pull request and open source contribution. 🤝:
+ 
 
 🚀: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
 🚀: Make sure to grab amazing knowledge during Hacktoberfest by getting involved in the open-source community.
 
-### This repository is open to all members of the GitHub community. Any member can contribute to this project! ❤️:
-
+<b>This repository is open to all members of the GitHub community. Any member can contribute to this project! ❤️:
+</b>
 ## What is Hacktoberfest? 🤔:
 
 A month-long celebration from October 1st to October 31st presented by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [DEV Community](https://dev.to/) collaborated with [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open-source developer community.
