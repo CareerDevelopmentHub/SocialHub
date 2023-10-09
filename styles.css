@@ -12,7 +12,7 @@ body {
     }}
 
 header {
-    background-color: #333;
+    background-image: linear-gradient(to right top, #46e500, #9dc000, #ca9600, #e46300, #eb1212);
     color: #fff;
     padding: 20px;
 }
