@@ -8,16 +8,25 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <title>SocialHub</title>
+
+
 </head>
 
 <body>
   <section>
     <header>
       <nav>
+     
+    </label>
         <ul>
           <li><a href="#"><i class="fa-solid fa-house fa-bounce" style="color: #0d5de7;"></i>Home</a></li>
           <li><a href="#"><i class="fa-solid fa-user fa-beat" style="color: #165cd4;"></i>About</a></li>
           <li><a href="#"><i class="fa-solid fa-phone fa-beat" style="color: #0c5fed;"></i>Contact</a></li>
+          <li style="background: #ffffff;border-radius: 40%; margin-left: 20px;">
+  <label for="switch" style="margin-top: 10px;">
+          <input type="checkbox" id="switch" class="switch">
+              <label for="switch"></label>
+       </li>
         </ul>
       </nav>
     </header>
@@ -56,6 +65,31 @@
             text-decoration: none;
           ">Learn More</a>
     </div>
+    <div class="content">
+      <img src="./assets/ankit.png" alt="Owner's Image" />
+
+      <h2 style="font-family: Arial, sans-serif; font-size: 20px;">
+       Ankit Kumar
+      </h2>
+      <p style="
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+          
+            padding: 5px;
+          ">
+       Passionate B.Tech Computer Science Student | Web development & iOS enthusiast | Eager to Learn and Innovate
+      </p>
+      <a href="AboutPages/ankitResume/index.html" target="_blank" style="
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #fff;
+            background-color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+          ">Know Me More</a>
+    </div>
+ 
     <div class="content">
       <img src="./assets/suhani.png" alt="Owner's Image" />
 
@@ -143,6 +177,14 @@
       <p>&copy; 2023 SocialHub. All rights reserved.</p>
     </div>
   </footer>
+  <script>
+    const $html = document.querySelector("html");
+    const $checkbox = document.querySelector("#switch");
+    
+    $checkbox.addEventListener("change", function() {
+        $html.classList.toggle("light-mode");
+    });
+    </script>
 </body>
 
 </html>
