@@ -1,0 +1,89 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.profile h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 36px;
+    margin: 0 20px;
+    transition: transform 0.3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.card {
+background-color: #232323;
+width: 150px;
+border-radius: 0.5rem;
+padding: 1rem;
+opacity: 0.9;
+margin-left: 1.5rem;
+margin-top: 1rem;
+}
+
+.card:hover {
+opacity: 1.8;
+}
+
+.cards-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card-img {
+width: 100%;
+border-radius: 0.3rem;
+}
+
+.card-title {
+font-weight: 600;
+}
+
+.card-info {
+font-size: 0.75rem;
+opacity: 0.5;
+}
+#firstH {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#firstP {
+margin-left: 200px;
+margin-right: 200px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#myImg {
+border-radius: 50%;
+height: 15rem;
+width: 15rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+body {
+background: linear-gradient(to bottom right, rgb(48, 182, 115), rgb(227, 114, 133));
+}
