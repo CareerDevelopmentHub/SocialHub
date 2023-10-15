@@ -4,8 +4,13 @@ body {
     padding: 0;
 }
 header {
+
     background-image: linear-gradient(to right top, #2742b0, #cb2589, #cc3066, #1c42ac, #2d4696);
     color: #fff;
+
+    background-image: linear-gradient(to right top, #3373cd, #7f9de2, #366ab7);
+    color: #000000;
+
     padding: 20px;
 }
 nav ul {
