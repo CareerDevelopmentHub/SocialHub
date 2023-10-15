@@ -1,0 +1,30 @@
+.about {
+    width: 100%;
+    height: 92vh;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(197, 87, 244, 0.544) 12.9%,rgba(181, 221, 248, 0.7) 91.2% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  main {
+    background-color:whitesmoke;
+    height: 25rem;
+    width: 40%;
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    border-radius: 100px 100px 100px 100px;
+  }
+  .heading{
+    font-size :40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.aboutinfo{
+    font-size:18px ;
+    font-family: cursive;
+    font-style: italic;
+
+}
