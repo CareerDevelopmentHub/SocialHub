@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+
+    background-color: #262644;
+}
+
+.logo {
+    margin: 25px;
+}
+
+.about_me_container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_me_card {
+    max-width: 650px;
+}
+
+.about_me_text {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about_me_tech_stack {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.about_me_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    gap: 18px;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.socials_text {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+@media only screen and (max-width: 520px) {
+    .about_me_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_me_section {
+        transform: scale(0.8);
+    }
+}
