@@ -2,21 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(197, 87, 244, 0.544) 12.9%,rgba(181, 221, 248, 0.7) 91.2% );
-    background-size: 200% 100%; /* Set a larger width for the gradient */
-    animation: gradientAnimation 3s linear infinite alternate; /* Use keyframes animation */
 }
-    @keyframes gradientAnimation {
-    0% {
-      background-position: 10% 0;
-    }}
-
 header {
+
+    background-image: linear-gradient(to right top, #2742b0, #cb2589, #cc3066, #1c42ac, #2d4696);
+    color: #fff;
+
     background-image: linear-gradient(to right top, #3373cd, #7f9de2, #366ab7);
     color: #000000;
+
     padding: 20px;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -180,8 +176,83 @@ footer{
     padding: 20px 0;
     text-align: center;
 }
+
+:root {
+    --bg: rgb(255, 255, 255);
+    --bg-input: #141419;
+}
+:root{
+    --bg:linear-gradient(to top right, #393998 41%, #fdfdfd 100%);
+   
+    --bg-input: #e1e1ed;
+}
+.light-mode {
+    --bg: linear-gradient(to left, #2a2d30, #080a0c);
+    --bg-input: #fcf9f9;
+}
+body {
+    background: var(--bg);
+    color: var(--color-text);
+
+}
+.switch {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+.switch+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+.switch+label {
+    padding: 2px;
+    width: 52px;
+    height: 27px;
+    background-color: var(--color-border), rgba(23, 21, 21, 0.3);
+    border-radius: 100px;
+}
+.switch+label:before,
+.switch+label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+.switch+label:before {
+    right: 1px;
+    background-color: var(--bg-input);
+    border-radius: 60px;
+    transition: all 0.4s;
+}
+.switch+label:after {
+    width: 30px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+.switch:checked+label:before {
+    background-color: #f3eff5;
+}
+.switch:checked+label:after {
+    transform: translateX(30px);
+}
+h1{
+    color: rgb(218, 236, 251);
+
+}
+p{
+    color: whitesmoke;
+}
+=======
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
+
