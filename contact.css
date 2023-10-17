@@ -1,0 +1,53 @@
+.contact {
+    width: 100%;
+    height: 92vh;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(197, 87, 244, 0.544) 12.9%,rgba(181, 221, 248, 0.7) 91.2% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .form-group button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border :1px solid black;
+      }
+      .form-group button:hover {
+        background-color: #fff;
+        color: #007BFF;
+        border: 1px solid wheat;
+      }
+  }
+  main {
+    background-color:whitesmoke;
+    height: 39rem;
+    width: 50%;
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    border-radius: 100px 100px 100px 100px;
+  }
+  .heading{
+    font-size :40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contactinfo{
+    font-size:18px ;
+    font-family: cursive;
+    font-style: italic;
+
+}
