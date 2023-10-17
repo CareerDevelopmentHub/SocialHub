@@ -34,6 +34,10 @@
                 </li>
               </ul>
         </div>
+        <label for="switch"  >
+          <input type="checkbox" id="switch" class="switch">
+              <label for="switch"></label>
+            </label>
       </nav>
     </header>
   </section>
@@ -372,6 +376,14 @@
       <p>&copy; 2023 SocialHub. All rights reserved.</p>
     </div>
   </footer>
+  <script>
+    const $html = document.querySelector("html");
+    const $checkbox = document.querySelector("#switch");
+    
+    $checkbox.addEventListener("change", function() {
+        $html.classList.toggle("light-mode");
+    });
+    </script>
 </body>
 
 </html>
