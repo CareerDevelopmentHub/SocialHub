@@ -78,6 +78,22 @@ Now, Push your awesome work to your remote repository using
 $ git push -u origin BranchName
 ```
 
+
+
+## Contributing
+
+We welcome contributions from the community. If you find any issues or have suggestions for improvement, please create an issue or a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+Special thanks to the contributors and open-source community for their valuable contributions to this project.
+
+Happy Coding! 🚗💻
+
 Finally, go to your repository in the browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
