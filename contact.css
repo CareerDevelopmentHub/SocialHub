@@ -1,7 +1,11 @@
+body
+{
+  
+  background-image: radial-gradient( circle  , rgba(238, 130, 238, 0.544), rgba(75, 0, 130, 0.544) ,rgba(0, 0, 255, 0.544), rgba(34,139,34,0.544),rgba(255,255,153,0.544),rgba(255,165,0,0.544),rgb(255,0,0,0.544) );
+}
 .contact {
     width: 100%;
-    height: 92vh;
-    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(197, 87, 244, 0.544) 12.9%,rgba(181, 221, 248, 0.7) 91.2% );
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,4 +54,31 @@
     font-family: cursive;
     font-style: italic;
 
+}
+ .navbar-brand
+    {
+        font-family: 'Young Serif', serif;
+        font-size:5vh;
+        color: black;
+    }
+    .navbar-nav
+    {
+        color: black;
+        display: flex;
+        width: 100%;
+        justify-content:end;
+        
+    }
+.navbar
+{
+    color: black;
+    padding:1vh 1vw;
+}
+header {
+    
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
 }
