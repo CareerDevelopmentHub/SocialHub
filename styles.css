@@ -1,18 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-image: radial-gradient(
-    circle,
-    rgba(238, 130, 238, 0.544),
-    rgba(75, 0, 130, 0.544),
-    rgba(0, 0, 255, 0.544),
-    rgba(34, 139, 34, 0.544),
-    rgba(255, 255, 153, 0.544),
-    rgba(255, 165, 0, 0.544),
-    rgb(255, 0, 0, 0.544)
-  );
-  background-size: 100% 100%; /* Set a larger width for the gradient */
+  padding: 0; /* Set a larger width for the gradient */
   background-position: center;
 }
 .navbar-brand {
@@ -149,4 +138,113 @@ footer {
 }
 .fa {
   padding: 0.5vw;
+}   
+:root {
+--bg: rgb(255, 255, 255);
+--bg-input: #141419;
+--color-text:whitesmoke;
+}
+:root{
+--bg:linear-gradient(to top right, #393998 41%, #43d0d7 100%);
+--color-text:whitesmoke;
+--bg-input: #e1e1ed;
+}
+.light-mode {
+--bg: linear-gradient(to left, #2a2d30, #080a0c);
+--bg-input: #fcf9f9;
+--color-text:whitesmoke;
+}
+body {
+background: var(--bg);
+color: var(--color-text);
+
+}
+.switch {
+position: absolute;
+margin-left: -9999px;
+visibility: hidden;
+}
+.switch+label {
+display: block;
+position: relative;
+cursor: pointer;
+outline: none;
+user-select: none;
+}
+.switch+label {
+padding: 2px;
+width: 52px;
+height: 27px;
+background-color: var(--color-border), rgba(23, 21, 21, 0.3);
+border-radius: 100px;
+}
+.switch+label:before,
+.switch+label:after {
+display: block;
+position: absolute;
+top: 1px;
+left: 1px;
+bottom: 1px;
+content: "";
+}
+.switch+label:before {
+right: 1px;
+background-color: var(--bg-input);
+border-radius: 60px;
+transition: all 0.4s;
+}
+.switch+label:after {
+width: 30px;
+background-color: #fff;
+border-radius: 100%;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+transition: all 0.4s;
+}
+.switch:checked+label:before {
+background-color: #f3eff5;
+}
+.switch:checked+label:after {
+transform: translateX(30px);
+}
+h1{
+color: rgb(218, 236, 251);
+
+}
+p{
+color: whitesmoke;
+}
+.footer-bottom p{
+font-size: 14px;
+word-spacing: 2px;
+text-transform: capitalize;
+}  
+#face:hover{
+  color: #334cc6;
+}
+#tweet:hover{
+  color: #74e8db;
+}
+#google:hover{
+  color: #bcf3ff;
+}
+#you:hover{
+  color: red;
+}
+#link:hover{
+  color: #2f55b5;
+}
+#face{
+  color: #e8ebf5;
+}
+#tweet{
+  color: #ecf6f4;
+}
+#google{
+  color: #f4f9fa;
+}
+#you{
+  color: rgb(248, 242, 242);
+}
+#link{
+  color: #eff1f8;
 }
