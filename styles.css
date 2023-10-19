@@ -2,21 +2,37 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(197, 87, 244, 0.544) 12.9%,rgba(181, 221, 248, 0.7) 91.2% );
-    background-size: 200% 100%; /* Set a larger width for the gradient */
-    animation: gradientAnimation 3s linear infinite alternate; /* Use keyframes animation */
+    background-image: radial-gradient( circle  , rgba(238, 130, 238, 0.544), rgba(75, 0, 130, 0.544) ,rgba(0, 0, 255, 0.544), rgba(34,139,34,0.544),rgba(255,255,153,0.544),rgba(255,165,0,0.544),rgb(255,0,0,0.544) );
+    background-size: 100% 100%; /* Set a larger width for the gradient */
+    background-position: center;
 }
-    @keyframes gradientAnimation {
-    0% {
-      background-position: 10% 0;
-    }}
-
+    .navbar-brand
+    {
+        font-family: 'Young Serif', serif;
+        font-size:5vh!important;
+        color: black!important;
+    }
+    .navbar-nav
+    {
+        color: black;
+        display: flex;
+        width: 100%;
+        justify-content:end;
+        
+    }
+.navbar
+{
+    color: black;
+    padding:1vh 1vw;
+}
 header {
-    background-image: linear-gradient(to right top, #3373cd, #7f9de2, #366ab7);
-    color: #000000;
+    
     padding: 20px;
 }
-
+nav{
+    display: flex;
+    justify-content:space-evenly;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -95,15 +111,12 @@ nav a {
     padding: 20px;
     margin: 30px;
     width: 250px;
-    height: 400px;
     text-align: center;
     transition: all 0.3s ease;
     color: rgb(0, 0, 0);
     backdrop-filter: blur(10px);
 }
-#rowTwo{
-    height: 420px;
-}
+
   .content:hover {
     transform: translateY(0);
     box-shadow: inset 0 0 60px #8ef6ff,
@@ -122,69 +135,18 @@ nav a {
     width: 200px;
     height: 200px;
 }
-footer{
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #333;
-    height: auto;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    padding-top: 40px;
+footer {
+    background-color: #333;
     color: #fff;
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    padding: 10px;
     text-align: center;
 }
-.footer-content h3{
-    margin: 0;
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-.socials{
-    padding: 0;
-    list-style: none;
+.socials
+{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
 }
-.socials li{
-    margin: 0 10px;
-}
-.socials a{
-    text-decoration: none;
-    color: #fff;
-}
-.socials a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
-}
-.socials a:hover i{
-    color: aqua;
-}
-
-.footer-bottom{
-    background: #000;
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-}
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+.fa
+{
+    padding: 0.5vw;
 }
