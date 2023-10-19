@@ -2,18 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: radial-gradient(
-        circle,
-        rgba(238, 130, 238, 0.544),
-        rgba(75, 0, 130, 0.544),
-        rgba(0, 0, 255, 0.544),
-        rgba(34, 139, 34, 0.544),
-        rgba(255, 255, 153, 0.544),
-        rgba(255, 165, 0, 0.544),
-        rgb(255, 0, 0, 0.544)
-    );
-    background-size: 100% 100%; /* Set a larger width for the gradient */
-    background-position: center;
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #3b8d99,
+        #6b6b83,
+        #aa4b6b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
 }
 .navbar-brand {
     font-family: "Young Serif", serif;
@@ -104,7 +100,6 @@ nav li {
     color: #fff;
 }
 .about-me {
-    border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -114,13 +109,13 @@ nav li {
     flex-basis: 20%;
 }
 .content {
+    background-color: #ffffff99;
     backdrop-filter: blur(10px);
-    background-color: rgba(181, 221, 248, 0.7);
     padding: 20px;
     margin: 30px;
     width: 250px;
     text-align: center;
-    transition: all 0.3s ease;
+    border-radius: 0.25rem;
     color: rgb(0, 0, 0);
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
@@ -135,7 +130,7 @@ nav li {
 
 .content h2 {
     margin-top: 10px;
-    font-weight: 700px;
+    font-weight: bold;
 }
 
 .content img {
@@ -154,4 +149,16 @@ footer {
 }
 .fa {
     padding: 0.5vw;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
