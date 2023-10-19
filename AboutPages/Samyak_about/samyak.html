@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Star Wars</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        #intro {
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #f0f;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        #intro p {
+            font-size: 20px;
+        }
+
+        #intro img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .info-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid #f0f;
+            padding: 20px;
+            margin: 20px;
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .info-box h2 {
+            font-size: 24px;
+        }
+
+        .info-box p {
+            font-size: 18px;
+        }
+
+        .info-box a {
+            text-decoration: none;
+            color: #f0f;
+            transition: color 0.3s;
+        }
+
+        .info-box a:hover {
+            color: #fff;
+        }
+
+        .animated {
+            animation: fade 2s linear infinite;
+        }
+
+        @keyframes fade {
+            0% { opacity: 0.2; }
+            50% { opacity: 1; }
+            100% { opacity: 0.2; }
+        }
+    </style>
+</head>
+<body>
+    <h1>About Me - Samyak Bhansali</h1>
+    <div id="intro">
+        <img src="profile.jpg" alt="Samyak Bhansali">
+        <p>Hello there! I'm a Star Wars stan who loves to explore the galaxy. Join me on my journey through the Force.</p>
+    </div>
+    <div class="container">
+        <div class="info-box">
+            <h2>Favorite Star Wars Movie</h2>
+            <p>My all-time favorite Star Wars movie is "The Empire Strikes Back." I love the intense battles and the iconic "I am your father" scene.</p>
+            <img src="father.gif" alt="gif" width="200">
+        </div>
+        <div class="info-box">
+            <h2>Favorite Character</h2>
+            <p>Without a doubt, my favorite character is Luke Skywalker. His hero's journey and connection to the Force are truly inspiring.</p>
+            <img src="luke.gif" alt="gif" width="200">
+        </div>
+        <div class="info-box">
+            <h2>Connect with Me</h2>
+            <p>Feel free to connect with me on social media or via email. Let's discuss all things Star Wars!</p>
+            <a href="https://linkedin.com/in/samyaktg" class="animated">linkedin</a> |
+            <a href="https://instagram.com/samyaktg" class="animated">Instagram</a> |
+            <a href="mailto:samyakbhansali2004@gmail.com" class="animated">Gmail</a>
+        </div>
+    </div>
+</body>
+</html>
