@@ -109,7 +109,7 @@ nav li {
     flex-basis: 20%;
 }
 .content {
-    background-color: #ffffff99;
+    background-color: #fff;
     backdrop-filter: blur(10px);
     padding: 20px;
     margin: 30px;
@@ -121,11 +121,11 @@ nav li {
 }
 
 .content:hover {
+    cursor: default;
     transform: translateY(0);
-    box-shadow: inset 0 0 60px #8ef6ff, inset 20px 0 80px rgb(186, 127, 235),
-        inset -20px 0 80px #fefffe, inset 20px 0 300px #bcf3ff,
-        inset -20px 0 300px #74e8db, 0 0 50px #ffeeee,
-        -10px 0 80px rgb(128, 193, 237), 10px 0 60px #dab7f1;
+    box-shadow: 0 0 25px #ffeeee, -10px 0 40px rgb(128, 193, 237),
+        10px 0 60px #dab7f1;
+    transition: 0.25s;
 }
 
 .content h2 {
@@ -149,16 +149,4 @@ footer {
 }
 .fa {
     padding: 0.5vw;
-}
-
-@keyframes animate {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
