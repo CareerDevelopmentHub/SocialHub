@@ -32,6 +32,7 @@ body {
     padding: 0 15px 0 15px;
     backdrop-filter: blur(12px);
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    min-height: 64px;
 }
 header {
     padding: 20px;
@@ -113,20 +114,15 @@ nav li {
     flex-basis: 20%;
 }
 .content {
-    background-color: rgba(
-        181,
-        221,
-        248,
-        0.7
-    ); /* Adjust the alpha value for transparency */
-    border: 1px solid #ffffff;
+    backdrop-filter: blur(10px);
+    background-color: rgba(181, 221, 248, 0.7);
     padding: 20px;
     margin: 30px;
     width: 250px;
     text-align: center;
     transition: all 0.3s ease;
     color: rgb(0, 0, 0);
-    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
 .content:hover {
@@ -135,6 +131,11 @@ nav li {
         inset -20px 0 80px #fefffe, inset 20px 0 300px #bcf3ff,
         inset -20px 0 300px #74e8db, 0 0 50px #ffeeee,
         -10px 0 80px rgb(128, 193, 237), 10px 0 60px #dab7f1;
+}
+
+.content h2 {
+    margin-top: 10px;
+    font-weight: 700px;
 }
 
 .content img {
