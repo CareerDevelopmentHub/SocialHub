@@ -1,7 +1,15 @@
+:root {
+    --dark: #374151;
+    --darker: #1f2937;
+    --darkest: #111827;
+    --gray: #aeb2ba;
+    --pink: #ec4899;
+    --purple: #8b5cf6;
+    --cyan: #00ffff;
+}
 .contact {
     width: 100%;
     margin-top: 64px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,23 +26,41 @@
         width: 100%;
         padding: 10px;
         box-sizing: border-box;
+        background-color: var(--darker);
+        font-family: "Fira Sans";
+        font-weight: 600;
+        font-size: 1.25rem;
+        border-radius: 1rem;
+        color: var(--gray);
+        border: none;
     }
     .form-group button {
         padding: 10px 20px;
-        background-color: #007bff;
+        background: linear-gradient(to right, var(--pink), var(--purple));
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
         color: #fff;
         border: none;
+        border-radius: 1rem;
         cursor: pointer;
-        border: 1px solid black;
     }
-    .form-group button:hover {
-        background-color: #fff;
-        color: #007bff;
-        border: 1px solid wheat;
+    .form-group button:hover,
+    .form-group button:focus,
+    .form-group button:active {
+        cursor: pointer;
+        border-radius: 1rem;
+        background: linear-gradient(to right, var(--cyan), var(--pink));
+        color: white;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(249, 104, 203, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 main {
-    background-color: #ffffff;
+    background: var(--dark);
     height: 39rem;
     width: 75%;
     padding: 3rem;
@@ -47,6 +73,7 @@ main {
 }
 .heading {
     font-size: 40px;
+    color: var(--gray);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
 }
@@ -54,6 +81,7 @@ main {
     font-size: 18px;
     font-family: cursive;
     font-style: italic;
+    color: var(--gray);
 }
 .navbar-brand {
     font-family: "Young Serif", serif;
@@ -78,7 +106,6 @@ nav {
     justify-content: space-evenly;
 }
 
-/* Styles for phones and smaller screens */
 @media (max-width: 768px) {
     .contact {
         margin: 40px 0px;
