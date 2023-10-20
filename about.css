@@ -1,85 +1,75 @@
-body {
-  background-image: radial-gradient(
-    circle,
-    rgba(238, 130, 238, 0.544),
-    rgba(75, 0, 130, 0.544),
-    rgba(0, 0, 255, 0.544),
-    rgba(34, 139, 34, 0.544),
-    rgba(255, 255, 153, 0.544),
-    rgba(255, 165, 0, 0.544),
-    rgb(255, 0, 0, 0.544)
-  );
-}
 .about {
-  width: 100%;
-  height: fit-content;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main {
-  background-color: whitesmoke;
-  height: fit-content;
-  width: 40%;
-  padding: 3rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  border-radius: 100px 100px 100px 100px;
-  margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 75%;
+    height: 100%;
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 .heading {
-  font-size: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
 .aboutinfo {
-  font-size: 18px;
-  font-family: cursive;
-  font-style: italic;
+    font-size: 18px;
+    font-family: cursive;
+    font-style: italic;
 }
 .navbar-brand {
-  font-family: "Young Serif", serif;
-  font-size: 5vh !important;
-  color: black !important;
+    font-family: "Young Serif", serif;
+    font-size: 5vh !important;
+    color: black !important;
 }
 .navbar-nav {
-  color: black;
-  display: flex;
-  width: 100%;
-  justify-content: end;
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: end;
 }
 .navbar {
-  color: black;
-  padding: 1vh 1vw;
+    color: black;
+    padding: 1vh 1vw;
 }
 header {
-  padding: 20px;
+    padding: 20px;
 }
 main {
-  margin: 70px;
+    margin: 70px;
 }
 nav {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Styles for phones and smaller screens */
 @media (max-width: 768px) {
-  .about {
-    display: block;
-    margin: 40px 0px;
-  }
-  main {
-    width: 90%;
-    margin: 10px;
-  }
-  .heading {
-    font-size: 30px;
-  }
-  .navbar-brand {
-    font-size: 3vh !important;
-  }
-  .navbar-nav {
-    flex-direction: column;
-  }
+    .about {
+        display: flex;
+        margin: 40px 0px;
+    }
+    main {
+        width: 90%;
+        margin: 10px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .navbar-brand {
+        font-size: 3vh !important;
+    }
+    .navbar-nav {
+        flex-direction: column;
+    }
 }
