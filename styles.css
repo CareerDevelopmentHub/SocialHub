@@ -121,6 +121,10 @@ nav li {
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
+.navbar-nav a:hover{
+    transition: 0.25s;
+    color: rgb(128, 193, 237);
+}
 .content:hover {
     cursor: default;
     transform: translateY(0);
