@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background: #aa4b6b; /* fallback for old browsers */
