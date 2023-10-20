@@ -2,7 +2,7 @@
 
 Welcome to SocialHub, an open-source project with a simple yet powerful goal: to create innovative "About Me" pages that foster meaningful connections among users. 😃
 <br>
-
+If it's your first contribution do [check this out](https://github.com/suhani1804/first-contributions/)
 Do check out the site before contributing [SocialHub](https://hacktober2023socialhub.netlify.app/) (Updated)
 
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
