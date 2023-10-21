@@ -1,12 +1,42 @@
 body {
     font-family: Arial, sans-serif;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #3b8d99,
+        #6b6b83,
+        #aa4b6b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+}
+.navbar-brand {
+    font-family: "Young Serif", serif;
+    font-size: 5vh !important;
+    color: black !important;
+}
+.navbar-nav {
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.navbar {
+    color: black;
+    padding: 0 15px 0 15px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    min-height: 64px;
 }
 header {
-    background-image: linear-gradient(to right top, #46e500, #9dc000, #ca9600, #e46300, #eb1212);
-    color: #fff;
     padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
 }
 nav ul {
     list-style: none;
@@ -15,14 +45,15 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin-right: 20px;
 }
-nav a {
-    color: #fff;
+.nav-item {
+    color: #000;
     text-decoration: none;
+    margin-right: 4px;
+    font-size: larger;
+    font-weight: 600;
 }
 .hero {
-    
     background-size: cover;
     color: #000000;
     display: flex;
@@ -70,7 +101,6 @@ nav a {
     color: #fff;
 }
 .about-me {
-    border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -79,17 +109,36 @@ nav a {
     flex-wrap: wrap;
     flex-basis: 20%;
 }
-.content
-{
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
+.content {
+    background-color: #fff;
+    backdrop-filter: blur(10px);
     padding: 20px;
     margin: 30px;
     width: 250px;
-    
     text-align: center;
+    border-radius: 0.25rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
-.content img{
+
+.navbar-nav a:hover{
+    transition: 0.25s;
+    color: rgb(128, 193, 237);
+}
+.content:hover {
+    cursor: default;
+    transform: translateY(0);
+    box-shadow: 0 0 25px #ffeeee, -10px 0 40px rgb(128, 193, 237),
+        10px 0 60px #dab7f1;
+    transition: 0.25s;
+}
+
+.content h2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content img {
     width: 200px;
     height: 200px;
 }
@@ -99,6 +148,10 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
-
-
+.socials {
+    display: flex;
+    justify-content: center;
+}
+.fa {
+    padding: 0.5vw;
+}
