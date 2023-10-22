@@ -110,18 +110,23 @@ nav li {
     flex-basis: 20%;
 }
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     backdrop-filter: blur(10px);
     padding: 20px;
     margin: 30px;
     width: 250px;
+    height: 425px;
     text-align: center;
     border-radius: 0.25rem;
     color: rgb(0, 0, 0);
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
-.navbar-nav a:hover{
+.navbar-nav a:hover {
     transition: 0.25s;
     color: rgb(128, 193, 237);
 }
@@ -131,6 +136,14 @@ nav li {
     box-shadow: 0 0 25px #ffeeee, -10px 0 40px rgb(128, 193, 237),
         10px 0 60px #dab7f1;
     transition: 0.25s;
+    transform: scale(1.05);
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        #3b8d99,
+        #6b6b83,
+        #aa4b6b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#3b8d99, #6b6b83, #aa4b6b);
 }
 
 .content h2 {
