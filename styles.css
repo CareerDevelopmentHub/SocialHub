@@ -137,6 +137,13 @@ nav li {
         10px 0 60px #dab7f1;
     transition: 0.25s;
     transform: scale(1.05);
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        #3b8d99,
+        #6b6b83,
+        #aa4b6b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#3b8d99, #6b6b83, #aa4b6b);
 }
 
 .content h2 {
