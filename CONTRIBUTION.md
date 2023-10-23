@@ -9,7 +9,7 @@ To get started, please follow these steps:
 1. Fork this repository.
 2. Create code file in the `AboutPages` folder with your name as the filename and if you have multiple code files then create folder containing code files with your name as foldername.
 3. Add any necessary image files to the `asset` folder and if you have multiple image files then create folder containing image files with your name as foldername.
-4. Before creating a pull request, please review the code in local server.
+4. Before creating a pull request, make sure you run command "git pull" on terminal and review the code in local server.
 5. Pull request should not contain any merge conflicts.
 
 ## Contributing
