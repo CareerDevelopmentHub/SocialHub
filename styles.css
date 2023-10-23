@@ -310,3 +310,16 @@ footer {
 .fa {
     padding: 0.5vw;
 }
+
+.scrollToTop {
+    position: absolute;
+    bottom: 60%;
+    right: 6%;
+    background-color: #ffffff;
+    border: none;
+    padding: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
