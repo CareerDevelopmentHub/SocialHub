@@ -14,7 +14,7 @@ body
 main {
   background-color: whitesmoke;
   height: fit-content;
-  width: 10%;
+  width: 100%;
   padding: 3rem;
   padding-top: 2rem;
   padding-right: 2rem;
@@ -59,4 +59,20 @@ main{
 nav{
 display: flex;
 justify-content:space-evenly;
+}
+
+
+
+.about {
+  opacity: 0;
+  animation: fading 2s forwards;
+}
+
+@keyframes fading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
