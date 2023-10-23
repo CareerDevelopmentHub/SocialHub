@@ -1,22 +1,57 @@
 body {
     font-family: Arial, sans-serif;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(197, 87, 244, 0.544) 12.9%,rgba(181, 221, 248, 0.7) 91.2% );
-    background-size: 200% 100%; /* Set a larger width for the gradient */
-    animation: gradientAnimation 3s linear infinite alternate; /* Use keyframes animation */
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #3b8d99,
+        #6b6b83,
+        #aa4b6b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
 }
-    @keyframes gradientAnimation {
-    0% {
-      background-position: 10% 0;
-    }}
-
+.navbar-brand {
+    font-family: "Young Serif", serif;
+    font-size: 5vh !important;
+    color: black !important;
+}
+.navbar-nav {
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.navbar {
+    color: black;
+    padding: 0 15px 0 15px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    min-height: 64px;
+}
 header {
-    background-image: linear-gradient(to right top, #3373cd, #7f9de2, #366ab7);
+
+
+    background-image: linear-gradient(to right top, rgb(239, 191, 219), #7f9de2, rgb(239, 191, 219));
     color: #000000;
     padding: 20px;
-}
 
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+
+
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -24,14 +59,19 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin-right: 20px;
 }
-nav a {
-    color: #ffffff;
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    margin-right: 4px;
+    font-size: larger;
+    font-weight: 600;
+}
+nav a:hover{
     text-decoration: none;
 }
 .hero {
-    
+
     background-size: cover;
     color: #000000;
     display: flex;
@@ -40,6 +80,17 @@ nav a {
     align-items: center;
     height: 100vh;
     text-align: center;
+
+
+  background-size: cover;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
 }
 .hero h1 {
     font-size: 4rem;
@@ -79,7 +130,10 @@ nav a {
     color: #fff;
 }
 .about-me {
+
+
     border: 1px solid #ddd;
+
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -87,6 +141,7 @@ nav a {
     justify-content: center;
     flex-wrap: wrap;
     flex-basis: 20%;
+
 }
 .content
 {
@@ -95,16 +150,19 @@ nav a {
     padding: 20px;
     margin: 30px;
     width: 250px;
+    height: 400px;
     text-align: center;
     transition: all 0.3s ease;
     color: rgb(0, 0, 0);
     backdrop-filter: blur(10px);
 }
-
+#rowTwo{
+    height: 420px;
+}
   .content:hover {
     transform: translateY(0);
     box-shadow: inset 0 0 60px #8ef6ff,
-                inset 20px 0 80px rgb(186, 127, 235),
+                inset 20px 0 80px rgb(179, 106, 239),
                 inset -20px 0 80px #fefffe,
                 inset 20px 0 300px #bcf3ff,
                 inset -20px 0 300px #74e8db,
@@ -119,6 +177,7 @@ nav a {
     width: 200px;
     height: 200px;
 }
+
 footer{
     position: relative;
     bottom: 0;
@@ -160,7 +219,7 @@ footer{
     margin: 1rem 0 3rem 0;
 }
 .socials li{
-    margin: 0 10px;
+    margin: 0 20px;
 }
 .socials a{
     text-decoration: none;
@@ -172,16 +231,82 @@ footer{
 }
 .socials a:hover i{
     color: aqua;
+
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: 30px;
+    width: 250px;
+    height: 425px;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
-.footer-bottom{
-    background: #000;
-    width: 100%;
-    padding: 20px 0;
+.navbar-nav a:hover {
+    transition: 0.25s;
+    color: rgb(128, 193, 237);
+}
+.content:hover {
+
+  transform: translateY(0);
+  box-shadow: inset 0 0 60px #8ef6ff, inset 20px 0 80px rgb(186, 127, 235),
+    inset -20px 0 80px #fefffe, inset 20px 0 300px #bcf3ff,
+    inset -20px 0 300px #74e8db, 0 0 50px #ffeeee,
+    -10px 0 80px rgb(128, 193, 237), 10px 0 60px #dab7f1;
+
+
+    cursor: default;
+    transform: translateY(0);
+    box-shadow: 0 0 25px #ffeeee, -10px 0 40px rgb(128, 193, 237),
+        10px 0 60px #dab7f1;
+    transition: 0.25s;
+    transform: scale(1.05);
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        #3b8d99,
+        #6b6b83,
+        #aa4b6b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#3b8d99, #6b6b83, #aa4b6b);
+}
+
+.content h2 {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
     text-align: center;
 }
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+.socials {
+    display: flex;
+    justify-content: center;
+}
+.fa {
+    padding: 0.5vw;
 }
