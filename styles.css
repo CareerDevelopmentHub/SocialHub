@@ -63,6 +63,11 @@ nav li {
     height: 100vh;
     text-align: center;
 }
+.srout{
+    position: relative;
+    bottom: 50px;
+    border-radius: 50%;
+}
 .hero h1 {
     font-size: 4rem;
     margin: 0;
