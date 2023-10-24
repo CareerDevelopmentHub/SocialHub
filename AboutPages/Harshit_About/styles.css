@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    font-size: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: wheat;
+    color: black;
+    box-shadow: 2px 2px 3px 3px rgb(236, 238, 236);
+}
+.btn:hover{
+
+    background-color: rgb(89, 230, 89);
+    color: white;
+    box-shadow: 2px 2px 3px 3px rgb(89, 230, 89);
+}
+.footer{
+    display: flex;
+}
+.footer a{
+    margin: 5px;
+}
