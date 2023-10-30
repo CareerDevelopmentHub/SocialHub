@@ -12,11 +12,13 @@ body {
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
 }
+
 .navbar-brand {
     font-family: "Young Serif", serif;
     font-size: 5vh !important;
     color: black !important;
 }
+
 .navbar-nav {
     color: black;
     display: flex;
@@ -24,6 +26,7 @@ body {
     justify-content: end;
     align-items: center;
 }
+
 .navbar {
     color: black;
     padding: 0 15px 0 15px;
@@ -31,35 +34,29 @@ body {
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     min-height: 64px;
 }
+
 header {
-
-
     background-image: linear-gradient(to right top, rgb(239, 191, 219), #7f9de2, rgb(239, 191, 219));
     color: #000000;
     padding: 20px;
-
-  padding: 20px;
 }
-nav {
-  display: flex;
-  justify-content: space-evenly;
 
-
-    padding: 20px;
-}
 nav {
     display: flex;
     justify-content: space-evenly;
-
+    padding: 20px;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 nav li {
     display: inline-block;
 }
+
 .nav-item {
     color: #000;
     text-decoration: none;
@@ -67,11 +64,12 @@ nav li {
     font-size: larger;
     font-weight: 600;
 }
-nav a:hover{
+
+nav a:hover {
     text-decoration: none;
 }
-.hero {
 
+.hero {
     background-size: cover;
     color: #000000;
     display: flex;
@@ -80,31 +78,32 @@ nav a:hover{
     align-items: center;
     height: 100vh;
     text-align: center;
-
-
-  background-size: cover;
-  color: #000000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-
+    background-size: cover;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
-.srout{
+
+.srout {
     position: relative;
-    bottom:35px;
+    bottom: 35px;
     border-radius: 50%;
 }
+
 .hero h1 {
     font-size: 4rem;
     margin: 0;
 }
+
 .hero p {
     font-size: 1.5rem;
     margin: 20px 0;
 }
+
 .second {
     color: #000000;
     display: flex;
@@ -113,14 +112,17 @@ nav a:hover{
     align-items: center;
     text-align: center;
 }
+
 .second h1 {
     font-size: 4rem;
     margin: 0;
 }
+
 .second p {
     font-size: 1.5rem;
     margin: 20px 0;
 }
+
 .hero button {
     background-color: #000;
     border: none;
@@ -130,15 +132,14 @@ nav a:hover{
     padding: 10px 20px;
     cursor: pointer;
 }
+
 .hero button:hover {
     background-color: #333;
     color: #fff;
 }
+
 .about-me {
-
-
     border: 1px solid #ddd;
-
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -146,10 +147,9 @@ nav a:hover{
     justify-content: center;
     flex-wrap: wrap;
     flex-basis: 20%;
-
 }
-.content
-{
+
+.content {
     background-color: rgba(181, 221, 248, 0.7); /* Adjust the alpha value for transparency */
     border: 1px solid #ffffff;
     padding: 20px;
@@ -161,29 +161,29 @@ nav a:hover{
     color: rgb(0, 0, 0);
     backdrop-filter: blur(10px);
 }
-#rowTwo{
+
+#rowTwo {
     height: 420px;
 }
-  .content:hover {
+
+.content:hover {
     transform: translateY(0);
     box-shadow: inset 0 0 60px #8ef6ff,
-                inset 20px 0 80px rgb(179, 106, 239),
-                inset -20px 0 80px #fefffe,
-                inset 20px 0 300px #bcf3ff,
-                inset -20px 0 300px #74e8db,
-                0 0 50px #ffeeee,
-                -10px 0 80px rgb(128, 193, 237),
-                10px 0 60px #dab7f1;
-  }
-  
-  
-  
-.content img{
+        inset 20px 0 80px rgb(179, 106, 239),
+        inset -20px 0 80px #fefffe,
+        inset 20px 0 300px #bcf3ff,
+        inset -20px 0 300px #74e8db,
+        0 0 50px #ffeeee,
+        -10px 0 80px rgb(128, 193, 237),
+        10px 0 60px #dab7f1;
+}
+
+.content img {
     width: 200px;
     height: 200px;
 }
 
-footer{
+footer {
     position: relative;
     bottom: 0;
     left: 0;
@@ -195,27 +195,31 @@ footer{
     padding-top: 40px;
     color: #fff;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
-.footer-content h3{
+
+.footer-content h3 {
     margin: 0;
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
-.footer-content p{
+
+.footer-content p {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
 }
-.socials{
+
+.socials {
     padding: 0;
     list-style: none;
     display: flex;
@@ -223,97 +227,23 @@ footer{
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-.socials li{
+
+.socials li {
     margin: 0 20px;
 }
-.socials a{
+
+.socials a {
     text-decoration: none;
     color: #fff;
 }
-.socials a i{
+
+.socials a i {
     font-size: 1.1rem;
-    transition: color .4s ease;
+    transition: color 0.4s ease;
 }
-.socials a:hover i{
+
+.socials a:hover i {
     color: aqua;
-
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-basis: 20%;
-
-}
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    margin: 30px;
-    width: 250px;
-    height: 425px;
-    text-align: center;
-    border-radius: 0.25rem;
-    color: rgb(0, 0, 0);
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-}
-
-.navbar-nav a:hover {
-    transition: 0.25s;
-    color: rgb(128, 193, 237);
-}
-.content:hover {
-
-  transform: translateY(0);
-  box-shadow: inset 0 0 60px #8ef6ff, inset 20px 0 80px rgb(186, 127, 235),
-    inset -20px 0 80px #fefffe, inset 20px 0 300px #bcf3ff,
-    inset -20px 0 300px #74e8db, 0 0 50px #ffeeee,
-    -10px 0 80px rgb(128, 193, 237), 10px 0 60px #dab7f1;
-
-
-    cursor: default;
-    transform: translateY(0);
-    box-shadow: 0 0 25px #ffeeee, -10px 0 40px rgb(128, 193, 237),
-        10px 0 60px #dab7f1;
-    transition: 0.25s;
-    transform: scale(1.05);
-    background: #aa4b6b; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        #3b8d99,
-        #6b6b83,
-        #aa4b6b
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(#3b8d99, #6b6b83, #aa4b6b);
-}
-
-.content h2 {
-    margin-top: 10px;
-    font-weight: bold;
-
-}
-
-.content img {
-    width: 200px;
-    height: 200px;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-.socials {
-    display: flex;
-    justify-content: center;
-}
-.fa {
-    padding: 0.5vw;
 }
 
 .scrollToTop {
@@ -328,17 +258,162 @@ footer {
     display: flex;
     align-items: center;
 }
-.footer-content a img{
+
+.footer-content a img {
     width: 50px;
     height: 50px;
 }
 
-@media(max-width: 574px) {
-    .scrollToTop{
+@media (max-width: 574px) {
+    .scrollToTop {
         bottom: 35%;
     }
-    .footer-content a img{
+    .footer-content a img {
         width: 35px;
         height: 35px;
+    }
+}
+
+.navbar-nav a:hover {
+    transition: 0.25s;
+    color: rgb(128, 193, 237);
+}
+
+.content:hover {
+    transform: translateY(0);
+    box-shadow: inset 0 0 60px #8ef6ff, inset 20px 0 80px rgb(186, 127, 235),
+        inset -20px 0 80px #fefffe, inset 20px 0 300px #bcf3ff,
+        inset -20px 0 300px #74e8db, 0 0 50px #ffeeee,
+        -10px 0 80px rgb(128, 193, 237), 10px 0 60px #dab7f1;
+
+    cursor: default;
+    transform: translateY(0);
+    box-shadow: 0 0 25px #ffeeee, -10px 0 40px rgb(128, 193, 237),
+        10px 0 60px #dab7f1;
+    transition: 0.25s;
+    transform: scale(1.05);
+    background: #aa4b6b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        #3b8d99,
+        #6b6b83,
+        #aa4b6b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#3b8d99, #6b6b83, #aa4b6b)
+}
+
+.content h2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-bottom{
+text-align: center;
+
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0; /* Increased margin for spacing */
+}
+
+.socials li {
+    margin: 0 10px; /* Adjusted spacing between icons */
+    transition: transform 0.2s;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.4s;
+}
+
+.socials a img {
+    width: 30px; /* Slightly smaller icons */
+    height: 30px; /* Slightly smaller icons */
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.socials li:not(:last-child) {
+    margin-right: 20px; /* Space between icons */
+}
+
+.socials a:hover {
+    color: aqua;
+}
+
+.socials a:hover img {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.8)); /* Adds a glowing effect */
+}
+
+.scrollToTop {
+    position: absolute;
+    bottom: 60%;
+    right: 6%;
+    background-color: #ffffff;
+    border: none;
+    padding: 8px; /* Increased padding for a larger button */
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s; /* Smooth button color transition */
+}
+
+.scrollToTop:hover {
+    background-color: #aaa; /* Change color on hover */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 574px) {
+    .scrollToTop {
+        bottom: 35%;
+    }
+    .socials a img {
+        width: 25px; /* Smaller icons for smaller screens */
+        height: 25px; /* Smaller icons for smaller screens */
     }
 }
