@@ -92,6 +92,11 @@ nav a:hover{
   text-align: center;
 
 }
+.srout{
+    position: relative;
+    bottom:35px;
+    border-radius: 50%;
+}
 .hero h1 {
     font-size: 4rem;
     margin: 0;
