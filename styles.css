@@ -31,10 +31,13 @@ body {
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     min-height: 64px;
 }
-header {
+header { barsharani-Sahoo
+    background-image: linear-gradient(to right top, #4172b7, #7f9de2, #366ab7);
+
 
 
     background-image: linear-gradient(to right top, rgb(239, 191, 219), #7f9de2, rgb(239, 191, 219));
+
     color: #000000;
     padding: 20px;
 
