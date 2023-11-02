@@ -1,0 +1,51 @@
+input{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border: 5px;
+}
+
+body{
+
+    background-image: url(https://i.pinimg.com/originals/71/42/11/714211e3b437fef2c193eb186a7808a7.jpg);
+    background-size: contain;
+    background-position: center center;
+
+    overflow:scroll;
+}
+
+.textbox{
+
+    position: relative;
+    margin-top: 190px;
+    margin-left: 300px;
+}
+
+.textarea{
+    position: relative;
+    margin-top: 19px;
+    margin-left: 300px;
+}
+
+#ui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border: 5px;
+}
+
+.btn{
+
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 300px;
+}
